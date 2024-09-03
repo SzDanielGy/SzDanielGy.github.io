@@ -1,0 +1,330 @@
+
+html{
+    background-color: #1e1e1e;
+    display: grid;
+    place-items: center;
+}
+
+body{
+    width: 210mm;
+    height: 297mm;
+    background-color: #1e1e1e;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main_window{
+    justify-self: center;
+    align-self: center;
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+#left_header{
+    width: 30%;
+    height: 100%;
+    background-color: #2e3d48 /*#1d4a7c*/;
+}
+
+
+#portrait{
+    background-image: linear-gradient(#727788,#99a2b1,white);
+    background-image: url("../src/portrait.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: top center;
+    object-fit: cover;
+    width: 50%;
+    height: 40%;
+    border-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    position: relative;
+    left: 25%;
+    top: 30%;
+    padding: 0;
+    margin: 0;
+}
+
+
+#right_header{
+    width: 64%;
+    height: 50%;
+    position: relative;
+    top: 40%;
+    left: 3.5%;
+}
+
+#intro{
+    margin-top: 5%;
+    font-size: medium;
+    position: relative;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    left: 10%;
+    width: 85%;
+
+}
+
+#intro_label{
+    width: 40%;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    position: relative;
+    left: 5%
+}
+
+.bottom{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+#left_bottom{
+    width: 30%;
+    height: 100%;
+    background-color: #2e3d48;
+    display: flex;
+    flex-direction: column;
+}
+
+#right_bottom{
+    width: 60%;
+    position: relative;
+    left: -2.5%;
+}
+
+.Title_1{
+    font-size: x-large;
+    position: relative;
+    left: 15%;
+    font-weight: bold;
+}
+
+.Title_2{
+    margin: 0px;
+    font-size: large;
+    position: relative;
+    width: 90%;
+    left: 25%;
+    font-weight:600;
+}
+
+.text{
+    font-style: italic;
+    position: relative;
+    width: 70%;
+    left: 25%;
+    margin: 0px;
+    font-weight:500;
+}
+
+#name{
+    position: relative;
+    top:40%;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+.label{
+    margin-top: 5%;
+    width: 95%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    left: 5%;
+}
+
+.label_1{
+    margin-top: 10%;
+    width: 95%;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    left: 5%;
+}
+
+#skills{
+    font-size: medium;
+}
+.contact_all{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    row-gap: 10%;
+}
+
+.contact .item{
+    display: flex;
+    height: 16.5%;
+    grid-column: 2;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    left:2.5%;
+    color: white;
+}
+
+#contact_icon{
+    grid-column: 1;
+    position: relative;
+    left: 25%;
+    text-align: left;
+    color: white;
+}
+
+.contact a:link {
+    color: white; 
+    text-decoration: underline;
+}
+.contact a:hover {
+    color: white; 
+    text-decoration: underline;
+}
+.contact a:active {
+    color: white; 
+    text-decoration: underline;
+}
+.contact a:visited {
+    color: white;
+    text-decoration: underline; 
+}
+
+.Title_2 a:link {
+    color: black; 
+    text-decoration: underline;
+}
+.Title_2 a:hover {
+    color: black; 
+    text-decoration: underline;
+}
+.Title_2 a:active {
+    color: black; 
+    text-decoration: underline;
+}
+.Title_2  a:visited {
+    color: black;
+    text-decoration: underline; 
+}
+
+.text a:link {
+    color: black; 
+    text-decoration: underline;
+}
+.text a:hover {
+    color: black; 
+    text-decoration: underline;
+}
+.text a:active {
+    color: black; 
+    text-decoration: underline;
+}
+.text  a:visited {
+    color: black;
+    text-decoration: underline; 
+}
+
+
+
+
+
+/*
+.top_side{
+    width: 100%;
+    height: 30%;
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+#left_side{
+    width: 30%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+    border-color: black;
+    border-right-style: solid;
+}
+
+.right_side{
+    width: 70%;
+    height: 100%;
+    background-color: red;
+    padding: 0;
+    margin: 0;
+}
+
+#introduction{
+    background-color: red;
+    background-image: linear-gradient(#727788,#99a2b1,white);
+    position: relative;
+    height: 70%;
+    top: 15%;
+    border-top-width: 3px;
+    border-top-color: black;
+    border-top-style: solid;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    
+}
+
+
+
+#portrait{
+    background-image: url("portrait_without_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: top center;
+    object-fit: cover;
+    width: 50%;
+    height: 15%;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-radius: 20px;
+    position: relative;
+    left: 25%;
+    top: 5%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#header{
+    height: 25%;
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+
+    */
