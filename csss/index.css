@@ -1,0 +1,43 @@
+html{
+    background-color: #1e1e1e;
+    display: grid;
+    place-items: center;
+}
+
+body{
+    width: 1250px;
+    height: 500px;
+}
+
+#under_construction{
+    background-color: #252526;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    gap: 0;
+    margin: 0;
+}
+
+.title{
+    color: white;
+    font-size: xx-large;
+    
+}
+
+.text{
+    color: white;
+    font-size: large;
+}
+
+.text a:hover{
+    color: whitesmoke;
+}
+
+.text a:link{
+    color: aqua;
+}
+
+.text a:visited{
+    color: lightblue;
+}
